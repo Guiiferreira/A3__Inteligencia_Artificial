@@ -1,0 +1,202 @@
+/* =========================================
+   FUNDO PRINCIPAL
+========================================= */
+
+.main {
+    background-color: #0f172a;
+}
+
+/* =========================================
+   TEXTOS
+========================================= */
+
+h1, h2, h3, h4, h5, h6,
+p, span, label {
+    color: white;
+}
+
+/* =========================================
+   MÉTRICAS
+========================================= */
+
+.stMetric {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* =========================================
+   RESULTADOS
+========================================= */
+
+.resultado-bom {
+    background-color: #14532d;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.resultado-risco {
+    background-color: #7f1d1d;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+section[data-testid="stSidebar"] {
+    background-color: #000000 !important;
+    border-right: 1px solid #111827 !important;
+}
+
+section[data-testid="stSidebar"] > div,
+section[data-testid="stSidebar"] > div > div,
+section[data-testid="stSidebar"] > div > div > div {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* força remoção do bloco do option_menu */
+section[data-testid="stSidebar"] nav.nav {
+    background-color: #000000 !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] ul.nav {
+    background-color: #000000 !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+section[data-testid="stSidebar"] {
+    background-color: #000000 !important;
+    border-right: 1px solid #111827 !important;
+}
+
+/* mata o bloco cinza do option_menu */
+section[data-testid="stSidebar"] * {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* preserva a barrinha vermelha do selecionado */
+section[data-testid="stSidebar"] .nav-link-selected {
+    border-left: 3px solid #ff4b4b !important;
+    border-radius: 0px 8px 8px 0px !important;
+}
+
+/* hover */
+section[data-testid="stSidebar"] .nav-link:hover {
+    background-color: #0f172a !important;
+}
+/* =========================================
+   MENU
+========================================= */
+
+/* título MENU */
+.sidebar-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* links */
+.nav-link {
+    color: white !important;
+    font-size: 17px !important;
+    border-radius: 12px !important;
+    margin-bottom: 10px !important;
+    padding: 12px !important;
+    transition: 0.3s !important;
+    background-color: transparent !important;
+}
+
+/* hover */
+.nav-link:hover {
+    background-color: #111827 !important;
+}
+
+/* selecionado */
+.nav-link-selected {
+    background-color: #ff4b4b !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+/* ícones */
+.nav-link i {
+    font-size: 18px !important;
+}
+
+/* =========================================
+   BOTÕES
+========================================= */
+
+.stButton button {
+    background-color: #ff4b4b;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #ff2e2e;
+}
+
+/* =========================================
+   INPUTS
+========================================= */
+
+.stTextInput input,
+.stNumberInput input,
+.stSelectbox div,
+.stSlider {
+    border-radius: 10px;
+}
+/* =========================================
+   REMOVE BLOCO CINZA DO OPTION MENU
+========================================= */
+
+div[data-v-5af006b8].menu,
+div[data-v-5af006b8].container-xxl {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+div[data-v-5af006b8],
+ul[data-v-5af006b8],
+li[data-v-5af006b8],
+a[data-v-5af006b8] {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+ul.nav.nav-pills {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
