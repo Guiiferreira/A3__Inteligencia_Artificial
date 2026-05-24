@@ -109,7 +109,7 @@ pip install streamlit numpy pandas scikit-learn plotly streamlit-option-menu
 
 3. Execute a aplicação:
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
